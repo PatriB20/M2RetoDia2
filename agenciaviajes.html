@@ -1,17 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="agenciaviajes.css" >
-    <link rel="shortout icon" href="cv.ico" type="image/x-icon" >
-    <script href="agenciaviajes.js"></script>
+    <link rel="shortout icon" href="avion.png" type="image/x-icon">
+    <script src="agenciaviajes.js"></script>
     <title>Viajes</title>
 </head>
-<body>
+<body class="general">
     <main>
-        <header><h1> Agencia de viajes </h1> </header>
+        <div>
+            <header>
+                <h1> Boeing 007 </h1> 
+                <h4>Agencia de viajes express</h4>
+            </header>
+        </div>
+        <article>
+            <form method="" action="">
+                <fieldset>
+                    <label for ="input example"> Nombre</label>
+                    <input type="text" name="introduce el nombre" id="nombre">
+                </fieldset>
+                <fieldset>
+                    <label for ="input example"> email </label>
+                    <input type="text" name="email" id="email">
+                </fieldset>
+                <fieldset>
+                    <label for ="input example"> Precio máx </label>
+                    <input type="text" name="PrecioMax" id="max">
+                </fieldset>
+                <fieldset>
+                    <label for ="input example"> Destino </label>
+                    <input type="text" name="destino" id="destino" list="listaDestinos">
+                    <datalist id="listaDestinos">
+                        <option value= "Galicia"> Galicia</option>
+                        <option value= "Gran Canaria"> Gran Canaria</option>
+                        <option value= "Madrid"> Madrid</option>
+                        <option value= "Málaga"> Málaga</option>
+                        <option value= "Internacional"> Internacional</option>
+                    </datalist>
+                </fieldset>
+                <fieldset>
+                    <label for ="textAreaExample"> Indicaciones a tener en cuenta </label>
+                    <input type="text" name="comentarios" id="comentarios" cols="30">
+                </fieldset>
+                <button type="reset" onclick="subs()">Enviar</button>
+                <button type="filter" onclick="filtrar()">Filtrar</button>
+                <button type ="reset" >Borrar</button>
+            </form>
+        </article>
     </main>
 </body>
 </html> 
