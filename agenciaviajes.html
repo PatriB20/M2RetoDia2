@@ -6,51 +6,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="agenciaviajes.css" >
     <link rel="shortout icon" href="avion.png" type="image/x-icon">
-    <script src="agenciaviajes.js"></script>
+    
     <title>Viajes</title>
 </head>
 <body class="general">
     <main>
-        <div>
-            <header>
+      
+            <header id="title">
+                <img src="pexels-engin-akyurt-1435752.jpg" id="img1">
                 <h1> Boeing 007 </h1> 
                 <h4>Agencia de viajes express</h4>
             </header>
-        </div>
-        <article>
-            <form method="" action="">
-                <fieldset>
-                    <label for ="input example"> Nombre</label>
-                    <input type="text" name="introduce el nombre" id="nombre">
-                </fieldset>
-                <fieldset>
-                    <label for ="input example"> email </label>
-                    <input type="text" name="email" id="email">
-                </fieldset>
-                <fieldset>
-                    <label for ="input example"> Precio máx </label>
-                    <input type="text" name="PrecioMax" id="max">
-                </fieldset>
-                <fieldset>
-                    <label for ="input example"> Destino </label>
-                    <input type="text" name="destino" id="destino" list="listaDestinos">
-                    <datalist id="listaDestinos">
-                        <option value= "Galicia"> Galicia</option>
-                        <option value= "Gran Canaria"> Gran Canaria</option>
-                        <option value= "Madrid"> Madrid</option>
-                        <option value= "Málaga"> Málaga</option>
-                        <option value= "Internacional"> Internacional</option>
-                    </datalist>
-                </fieldset>
-                <fieldset>
-                    <label for ="textAreaExample"> Indicaciones a tener en cuenta </label>
-                    <input type="text" name="comentarios" id="comentarios" cols="30">
-                </fieldset>
-                <button type="reset" onclick="subs()">Enviar</button>
-                <button type="filter" onclick="filtrar()">Filtrar</button>
-                <button type ="reset" >Borrar</button>
-            </form>
-        </article>
+    
+        <section class="section1">
+            <article>
+                <form method="" action="">
+                    <fieldset>
+                        <label for ="input example"> Nombre</label>
+                        <input type="text" name="introduce el nombre" id="nombre">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for ="input example"> email </label>
+                        <input type="text" name="email" id="email">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for ="input example"> Precio máx </label>
+                        <input type="text" name="PrecioMax" id="max">
+                    </fieldset>
+
+                    <fieldset>
+                        <label for ="input example"> Destino </label>
+                        <input type="text" name="destino" id="destino" list="listaDestinos">
+                        <datalist id="listaDestinos">
+                            <option value= "Galicia"> Galicia</option>
+                            <option value= "Gran Canaria"> Gran Canaria</option>
+                            <option value= "Madrid"> Madrid</option>
+                            <option value= "Málaga"> Málaga</option>
+                            <option value= "Internacional"> Internacional</option>
+                        </datalist>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for ="textAreaExample"> Indicaciones a tener en cuenta </label>
+                     <input type="text" name="comentarios" id="comentarios" cols="30">
+                    </fieldset>
+                    <button type="submit" onclick="subs()">Enviar</button>
+                    <button type="submit" onclick="filtrar()">Filtrar</button>
+                    <button type ="reset" >Borrar</button>
+                </form>
+            </article>
+            <article id= "class1">
+                <div>
+                    <p> 23 noviembre al 1 diciembre: </p>
+                    <p>GRAN CANARIA (800€)</p>
+                </div>
+                <div>
+                    <p> 20 diciembre al 1 enero: </p>
+                    <p>MADRID (750€)</p>
+                </div>
+                <div>
+                    <p> 7 enero al 9 enero: </p>
+                    <p>GALICIA (400€)</p>
+                </div>
+                <div>
+                    <p> 28 enero al 6 febrero: </p>
+                    <p>MALAGA (550€)</p>
+                </div>
+             </article>   
+
+        </section>
+
+        <section class="section2">
+             <img src="pexels-pixabay-462030.jpg" id="img2">
+            <article id= "class1">
+                <div>
+                    <p> PROXIMAMENTE FECHAS PARA DESTINOS INTERNACIONACIONALES</p>
+                </div>
+                <div>
+                    <p> BUDAPEST</p>
+                </div>
+                <div>
+                    <p> LONDRES</p>
+                </div>
+                <div>
+                    <p> BERLIN</p>
+                </div>
+            </article>   
+        </section>
     </main>
+   
+       
+  
+<script src="agenciaviajes.js"></script>
 </body>
 </html> 
