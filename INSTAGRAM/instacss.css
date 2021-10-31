@@ -1,0 +1,102 @@
+.form{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+        background-color: #FFFFFF;
+        border:solid  silver ;
+        border-width: 1px;
+        width: 350px;
+        height: 381px;
+        gap: 8px;
+        margin-top: 60px;
+
+
+}
+.foto{
+        margin-top: 35px;
+        width: 370px;
+        height: 590px;
+}
+.box1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        background-color: #FAFAFA;
+}
+.box2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}
+.registro{
+        background-color: #FFFFFF;
+        border: silver solid;
+        border-width: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 350px;
+}
+
+.facebook{
+        color: blue;
+}
+.datos{
+        width: 260px;
+        height: 40px;
+        background-color: #FAFAFA;
+        border: solid silver;
+        border-width: 1px;
+        border-radius: 3px;
+}
+.app{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.facebook1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.descargas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+#bot1{
+        background-color:rgb(178, 223, 252);
+        border: rgb(178, 223, 252) solid;  
+        height: 30px;
+        width: 265px;
+        border-radius: 4px;
+        color: white;
+        font-size: medium;
+}
+#cuenta{
+        text-decoration: none; 
+        color: #41B0F8" 
+}
+#contraseña{
+        text-decoration: none; 
+        color: #00376B; 
+        font-size: small;
+}
+@media screen and (max-width:450px) 
+{ .box1{
+     flex-direction: column;}
+}    
+
+
+
+
+
+

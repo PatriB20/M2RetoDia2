@@ -1,3 +1,4 @@
+let contactos = new Array()
 function subs()
 {  
     let nombre = document.getElementById("nombre").value
@@ -8,8 +9,11 @@ function subs()
 
     let json= { "nombre": nombre, "email": email, "PrecioMax":precioMax, 
                 "destino":destino, "comentarios":comentarios}
-    alert(JSON.stringify(json));
+                
 }
+contactos.push(json);
+
+
 function filtrar()
 {
 let email =document.getElementById("email").value
