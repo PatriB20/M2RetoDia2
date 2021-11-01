@@ -1,0 +1,129 @@
+.logo{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 1000px;
+    font-size: 20px; ;
+    padding: 3px 10px;
+    border: #66E8B3  5px double;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #229AFE;
+    border: #229AFE solid;
+    border-radius: 5px;
+    }
+.casilla{
+    border-color:#229AFE ;
+    border-radius: 5px;
+}
+.fechas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+.ofertas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.textofertas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.ofer{
+    color: #66E8B3;
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif  
+}
+.att{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    gap: 3px;
+}
+.llamadas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 9px;
+    color: silver;
+    text-align:left;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items:center;
+    padding-left: 20px;
+}
+.botonpri{
+    width: 70px;
+    height: 50px;
+    color: white;
+    background-color:#6ecb86;
+    border: #6ecb86 solid;
+    border-radius: 5px;
+}
+.sugerencia{
+    background-color: #414750;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+#botonenvi{
+    width: 100px;
+    height: 80px;
+    color: white;
+    background-color: #6ecb86;
+    border: #6ecb86 solid;
+    border-radius: 5px;
+}
+
+#suge{   
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin-left: 50pxpx;
+}
+#text{
+    background-color: #414750;
+    margin-left: 250px;
+    font-size: medium;
+}
+#botonsuge{
+    margin-left: 320px;
+}
+    
+

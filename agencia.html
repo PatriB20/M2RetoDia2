@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "shortcuticon" href="icono.png" tipe="image/x-icon">
+    <link rel= "stylesheet"  href="agenciacss.css"> 
+    <title>LOWTRAVEL</title>
+</head>
+<body>
+    <section>     
+        <section class="att">
+            <div class=logo>             
+             <h1>LOWTRAVEL</h1>
+            </div>
+            <img src="./imagenes/attcliente.png">         
+            <p class="llamadas">
+               ATENCION PERSONALIZADA<br>
+               DE LUNES A VIERNES<br>
+               MAÑANAS DE 9 A 14H<br>
+               TARDES DE 17 A 20H<br>
+               000000000
+            </p>       
+        </section>
+     <section>
+                <div>
+                    
+<form class="form" method="" action="">
+                    <fieldset>
+                        <label  for ="input example"> Nombre</label>
+                        <input class="casilla" type="text" name="introduce el nombre" id="nombre">
+                    </fieldset>
+                    <fieldset>
+                        <label for ="input example"> email </label>
+                        <input class="casilla" type="text" name="email" id="email">
+                    </fieldset>
+                    <fieldset>
+                        <label for ="input example"> Precio máx </label>
+                        <input class="casilla" type="text" name="PrecioMax" id="max">
+                    </fieldset>
+                    <fieldset>
+                        <label for ="input example"> Destino </label>
+                        <input class="casilla" type="text" name="destino" id="destino" list="listaDestinos">
+                        <datalist id="listaDestinos">
+                            <option value= "Galicia"> Galicia</option>
+                            <option value= "Gran Canaria"> Gran Canaria</option>
+                            <option value= "Madrid"> Madrid</option>
+                            <option value= "Málaga"> Málaga</option>
+                            <option value= "Internacional"> Internacional</option>
+                        </datalist>
+                    </fieldset>
+                    <fieldset class="fechas">
+                        <label for ="star"> Fecha Ida </label>
+                     <input class="casilla" type="date" name="trip-start" id="star" value="" min="" max="">
+                     <label  for ="star"> Fecha Vuelta </label>
+                     <input class="casilla" type="date" name="trip-start" id="star" value="" min="" max="">
+                    </fieldset>
+                    <section class="botones"> 
+                    <button class="botonpri" type="submit" onclick="filtrar()">Filtrar</button>
+                    <button class="botonpri" type ="reset" >Borrar</button>
+                </section>
+                  <div class="enviar" >
+                    <button id="botonenvi" type="submit" onclick="subs()">Enviar</button>
+                </div>                     
+                </form>
+             </div>
+                    <div class="textofertas">
+                     <p class="ofer">MEJORES OFERTAS</p> 
+                     <img src=".imagenes/oferta.png" >
+                    </div>
+             <div class="ofertas">
+                    <img class="imagen" src="./imagenes/galicia.png">
+                    <img class="imagen" src="./imagenes/grancanaria.png">
+                    <img class="imagen" src="./imagenes/madrid.png">
+                    <img class="imagen" src="./imagenes/malaga.png">
+                    <img class="imagen" src="./imagenes/internacional.png">
+             </div>
+             <fieldset class="sugerencia">
+                    <label id="text" for="textAreaExample">Atención al cliente y sugerencias.   </label>
+                    <textarea id="suge" name="myfirtstextarea" id="textarea" cols="30" rows="10"></textarea>
+                    <button id="botonsuge" type="submit" onclick="subs()">Enviar</button>
+             </fieldset>
+        </section>
+    </section>
+    <script src="./agenciaviajes.js"></script>
+</body>
+</html>
