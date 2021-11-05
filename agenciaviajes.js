@@ -1,18 +1,20 @@
+
 let contactos = new Array()
 function subs()
 {  
+    
     let nombre = document.getElementById("nombre").value
     let email =document.getElementById("email").value
     let precioMax =document.getElementById("max").value
     let destino =document.getElementById("destino").value
-    let comentarios =document.getElementById("comentarios").value
+    // let comentarios =document.getElementById("comentarios").value
 
     let json= { "nombre": nombre, "email": email, "PrecioMax":precioMax, 
-                "destino":destino, "comentarios":comentarios}
+                "destino":destino}
 
     contactos.push(json);              
     alert(JSON.stringify(json));
-              
+              console.log(nombre + email + precioMax + destino )
 }
 
 
